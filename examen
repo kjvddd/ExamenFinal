@@ -1,0 +1,33 @@
+
+1) Testing manual es la evaluacion y verificacion de un proceso de software. Utilizando herramientas unicamente manuales y no automatizadas. En este proceso se realizar prubas se realizan pruebas exploratorias del software.
+Segun los casos de prueba que anteriormente fueron documentados. Es importante porque el tester humano interactua directamente con la interfaz de usario puede detectar mejor problemas de experiencia de usuario. 
+
+2) Pasos a seguir para una diseñar un conjunto de pruebas manuales para una funcion serian: Reconocer los requisitos, Identificar Escenarios de uso (pruebas normales, pruebas limites), crear casos de prueba, Dejar en claro los resultados
+esperados, Determinar la seguridad necesaria para la funcion( va depender de los datos que maneje), Documentacion de casos de prueba, Reportar cualquier defecto y continuar un seguimiento hasta su resolucion.
+
+3) El testing funcional se enfoca mas en garantizar que el software cumpla con los requisitos funcionales. En otras palabras se pone a prueba si el software cumple con cada funcion especificada anteriormente. 
+Y el testing no funcional se enfoca mas en la calidad del software, el rendimiento como tambien la comprobación de que el software sea optimo en terminos de usabilidad.
+
+4) Caja negra en terminos de testing se basa en una vision del sistema desde el punto de vista de un usuario. Caja blanca seria una vision interna del sistema, y se usa para evaluar la calidad del codigo. 
+
+5) Para una identificacion y reporte de un error los pasos a seguir son: Realizar pruebas manuales y automatizadas para poder localizar cualquier indicio de problema en el software, En caso de encontrar un error Registrar
+que acciones desencadenaron el mismo . Compartirlo con el equipo de desarrollo y explicar de la mejor manera para poder llegar lo antes posible a la causa del error. 
+
+6) Las pruebas de regresion son muy importantes para mantener la calidad del software mientras se va modificando, Permite una mayor velocidad en la respuesta del equipo de desarrollo para mantener la estabilidad del sistema.
+
+8) 
+9)En un proyecto con plazos muy ajustados lo mejor es darle una mayor planificacion mas exaustiva y darle prioridad a las situacines mas cruciales.
+
+11) Las UAT (pruebas de aceptacion de usuario), se basan en verificar si el software cumple con las expectativas de los usuarios finales. en cambio las pruebas de sistema se enfocan en el rendimiento, y aspectos tecnicos. 
+
+12) Las metodologias agiles tienden a se muy flexibles y de una evolucion constante dependiendo del proyecto. Enfoque principal, capacidad de respuesta a los cambios. 
+
+13) El desarrollo en cascada se caracteriza por ser muy estructurado en cambio el desarrollo agil es mas flexible es mas adecuado para proyectos donde los requisitos pueden modificarse durante la etapa del desarollo. 
+Desarrollo en cascada: Ventaja: Se realiza una documentacion completa en cada fase, que a largo plazo va a mejorar la comprension del proyecto
+Desarollo Agil: Ventaja: Entregas frecuentes , y una mayor adaptabilidad a los cambios.
+
+14)
+
+15)
+
+
