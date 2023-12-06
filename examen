@@ -1,3 +1,6 @@
+Lucas Chernan.
+
+
 
 1) Testing manual es la evaluacion y verificacion de un proceso de software. Utilizando herramientas unicamente manuales y no automatizadas. En este proceso se realizar prubas se realizan pruebas exploratorias del software.
 Segun los casos de prueba que anteriormente fueron documentados. Es importante porque el tester humano interactua directamente con la interfaz de usario puede detectar mejor problemas de experiencia de usuario. 
@@ -15,7 +18,6 @@ que acciones desencadenaron el mismo . Compartirlo con el equipo de desarrollo y
 
 6) Las pruebas de regresion son muy importantes para mantener la calidad del software mientras se va modificando, Permite una mayor velocidad en la respuesta del equipo de desarrollo para mantener la estabilidad del sistema.
 
-8) 
 9)En un proyecto con plazos muy ajustados lo mejor es darle una mayor planificacion mas exaustiva y darle prioridad a las situacines mas cruciales.
 
 11) Las UAT (pruebas de aceptacion de usuario), se basan en verificar si el software cumple con las expectativas de los usuarios finales. en cambio las pruebas de sistema se enfocan en el rendimiento, y aspectos tecnicos. 
@@ -26,13 +28,39 @@ que acciones desencadenaron el mismo . Compartirlo con el equipo de desarrollo y
 Desarrollo en cascada: Ventaja: Se realiza una documentacion completa en cada fase, que a largo plazo va a mejorar la comprension del proyecto
 Desarollo Agil: Ventaja: Entregas frecuentes , y una mayor adaptabilidad a los cambios.
 
-14)
+15) Para diseñar casos de prueba a una funcion se deberia comenzar con recopilacion de los requerimientos de la funcion, Identificar los escenarios de prueba, crear los datos de prueba
+crear los casos de prueba, ejecutarlos, documentar los errores encontrados y tener un seguimiento del mismo para entender su comportamiento. 
 
-15) 
+16) Va depender del tipo de negocio y sus objetivos, determinar prioridades, el tiempo con el que cuento para realizar las pruebas. 
+17) Los casos de prueba positivos evaluan si la funcion hace lo que supuestamente debeberia realizar correctamente, en tanto que los casos de prueba negativos se enfocan en cómo la funcion maneja entradas inesperadas o escenarios incorrectos. 
+la proporcion de casos positivos y negativos va a depender de la etapa del proyecto, y la funcionalidad que se este probando. 
 
+18) Los casos de prueba que deberian ejecutarse con prioridad son : Casos de prueba positivos para funcionalidades criticas, y casos de prueba negativos criticos. 
+19) Casos de prueba funcionales: es verificar si el que el software cumpla con los requisitos funcionales. se basan en como el sistema debe responder y sus funcionalidades. 
+    Casos de prueba NO funcionales: Se basan en la calidad y rendimiento del sistema, buscando una mejor optimizacion en cada una de sus funciones especificas.
+21) En un bug report deberia tener como minimo: Un titulo, el nombre del tester, descripcion del bug, frecuencia, severidad y prioridad , ambientes, resultado deseado, resultado actual, 
+camino de acciones para llegar al bug. 
 
+25) En caso de encontrar un error ya documentado y todavia que no se resolvio me pondria en contacto con el equipo de desarrollo para ver si necesita alguna informacion necesaria. 
+Si el problema viene persistiendo por mucho tiempo solicitaria la actualizacion de cuando va a estar resuelto el inconveniente. 
 
+26) Frontend seria la interfaz visto del lado del cliente.
+ Backend es la parte de una aplicacion web que los usuarios no ve.
+Se encarga de la manipulación de datos y la comunicación con la base de datos.
 
+27) SQL (Structured Query Language) Conviene utilizar este tipo de base de datos cuando la estructura de los datos es clara y no se modificara con frecuencia. 
+NOSQL: seria mejor utilizar una base de datos no relacional cuando la estructura de los datos se cambie constantemente y para grandes volumenes de datos.
+Hay ciertos casos que depende de los requisitos de la aplicacion se puede optar por una metodologia hibidra.
+
+28) Una API es un conjunto de herramientas que permite a los desarrolladores de software acceder y utilizar las funciones o datos de una aplicacion especifica. Da lugar a la integracion efectiva de servicios 
+y funcionalidades de terceros.
+
+29) La programacion orientada a objetos ofrece una forma estructurada organizar el codigo, lo que permite un mejor entendimiento del codigo a terceros y el mantenimiento a largo plazo. 
+Su principal concepto son las clases y objetos, se enfoca en la reutilizacion del codigo, la encapsulacion y la abstraccion. Permitiendo asi una mejor optimizacion.
+30) Una clase es un molde que define la estructura y el comportamiento de los objetos. Un objeto es un especimen de una clase.
+31) Una herencia se denomina a la palabra reservada Extends, que permite crear nuevas clases basadas en clases anteriores es una manera de optimizar y reutilizar el codigo 
+Poliformismo: Muchos objetos pueden compartir un mismo metodo, pero cada uno puede tener una diferente implementacion y todos va a responder al mismo metodo.
+El encapsulamiento sirve para ocultar informacion sensible o importante. Los modificadores de accesos que se pueden utilizar son private, public, protected. 
 
 
 
