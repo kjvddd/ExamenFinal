@@ -28,6 +28,135 @@ Desarollo Agil: Ventaja: Entregas frecuentes , y una mayor adaptabilidad a los c
 
 14)
 
-15)
+15) 
 
+
+
+
+
+
+
+parte 2: 
+
+1) El error en esta funcion es que intenta devolver un valor de tipo double como una cadena String. 
+El codigo correcto seria:
+
+
+public double calcularSueldo() {
+    double sueldoContractor = tarifaContractor * getHorasTrabajadas();
+    return sueldoContractor;
+}
+
+2) Los dos errores en el codigo son:
+
+La palabra reservada class para declarar una clase no puede ser precedida por la palabra clave private.
+
+El metodo tocar debe tener parentesis () despues del nombre del metodo para indicar que es un metodo.
+
+El codigo correcto seria:
+
+class Guitarra extends Instrumento {
+    @Override
+    public void tocar() {
+        System.out.println("Tocar Guitarra");
+    }
+}
+
+3) En el siguiente codigo se encuentra getter y setter de la funcion suma()
+
+    public int getSuma() {
+        return suma;
+    }
+
+    public void setSuma(int a, int b) {
+        this.suma = sumar(a, b);
+    }
+
+    private int sumar(int a, int b) {
+        return a + b;
+    }
+
+Parte 3: 
+
+  //clase principal
+1) public class Animales {
+    private int cantidadPatas;
+    private int edad;
+    private String pelaje;
+
+    //constructor
+    public Animales(int cantidadPatas, int edad, String pelaje) {
+        this.cantidadPatas = cantidadPatas;
+        this.edad = edad;
+        this.pelaje = pelaje;
+    }
+
+    //Getters y Setters 
+    public int getCantidadPatas() {
+        return cantidadPatas;
+    }
+
+    public void setCantidadPatas(int cantidadPatas) {
+        this.cantidadPatas = cantidadPatas;
+    }
+
+    public int getEdad() {
+        return edad;
+    }
+
+    public void setEdad(int edad) {
+        this.edad = edad;
+    }
+
+    public String getPelaje() {
+        return pelaje;
+    }
+
+    public void setPelaje(String pelaje) {
+        this.pelaje = pelaje;
+    }
+}
+
+//Clase Perro herencia de Animales
+public class Perro extends Animales {
+    // Constructor que invoca al constructor de la clase base
+    public Perro(int cantidadPatas, int edad, String pelaje) {
+        super(cantidadPatas, edad, pelaje);
+    }
+
+    //Metodos de la clase Perro
+    public void ladrar() {
+        System.out.println("Guau");
+    }
+
+    public void jugar() {
+        System.out.println("perroJugando");
+    }
+}
+
+2) public class Main {
+    public static void main(String[] args) {
+        
+        int[] numeros = {3, 5, 7, 13, 1};
+  
+        int maximo=numeros[0];
+
+        for (int i = 1; i < numeros.length; i++) {
+            if (numeros[i] > maximo) {
+                maximo = numeros[i];
+            }
+        }
+        System.out.println("El numero mas grande es: " + maximo);
+    }
+}
+
+
+3) public class Main {
+    public static void main(String[] args) {
+        
+        String palabraMinusculas = "domo";
+        String palabraMayusculas = palabraMinusculas.toUpperCase();
+        System.out.println("Palabra en mayúsculas: " + palabraMayusculas);
+    }
+}
 
