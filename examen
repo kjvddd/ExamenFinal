@@ -52,13 +52,13 @@ Se encarga de la manipulación de datos y la comunicación con la base de datos.
 NOSQL: seria mejor utilizar una base de datos no relacional cuando la estructura de los datos se cambie constantemente y para grandes volumenes de datos.
 Hay ciertos casos que depende de los requisitos de la aplicacion se puede optar por una metodologia hibidra.
 
-28) Una API es un conjunto de herramientas que permite a los desarrolladores de software acceder y utilizar las funciones o datos de una aplicacion especifica. Da lugar a la integracion efectiva de servicios 
+29) Una API es un conjunto de herramientas que permite a los desarrolladores de software acceder y utilizar las funciones o datos de una aplicacion especifica. Da lugar a la integracion efectiva de servicios 
 y funcionalidades de terceros.
 
-29) La programacion orientada a objetos ofrece una forma estructurada organizar el codigo, lo que permite un mejor entendimiento del codigo a terceros y el mantenimiento a largo plazo. 
+30) La programacion orientada a objetos ofrece una forma estructurada organizar el codigo, lo que permite un mejor entendimiento del codigo a terceros y el mantenimiento a largo plazo. 
 Su principal concepto son las clases y objetos, se enfoca en la reutilizacion del codigo, la encapsulacion y la abstraccion. Permitiendo asi una mejor optimizacion.
-30) Una clase es un molde que define la estructura y el comportamiento de los objetos. Un objeto es un especimen de una clase.
-31) Una herencia se denomina a la palabra reservada Extends, que permite crear nuevas clases basadas en clases anteriores es una manera de optimizar y reutilizar el codigo 
+31) Una clase es un molde que define la estructura y el comportamiento de los objetos. Un objeto es un especimen de una clase.
+32) Una herencia se denomina a la palabra reservada Extends, que permite crear nuevas clases basadas en clases anteriores es una manera de optimizar y reutilizar el codigo 
 Poliformismo: Muchos objetos pueden compartir un mismo metodo, pero cada uno puede tener una diferente implementacion y todos va a responder al mismo metodo.
 El encapsulamiento sirve para ocultar informacion sensible o importante. Los modificadores de accesos que se pueden utilizar son private, public, protected. 
 
